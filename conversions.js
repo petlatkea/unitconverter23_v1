@@ -63,3 +63,13 @@ function mTofeet(meters) {
   const M_PER_FOD = 3.2808;
   return meters * M_PER_FOD;
 }
+
+function inchToCm(inches) {
+   let centimeters = inches * 2.54;
+   return centimeters;
+}
+
+function cmToInch(centimeters) {
+   let inches = centimeters * 0.393701;
+   return inches;
+}
