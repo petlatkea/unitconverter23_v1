@@ -1,4 +1,3 @@
-
 "use strict";
 
 function milesToKm(miles) {
@@ -96,12 +95,22 @@ function cmToInch(centimeters) {
    return inches;
 }
 
-
 function fToC(fahrenheit) {
   let celsius = (fahrenheit - 32) / 1.8;
   return celsius;
 }
+
 function cToF(celcius) {
   let fahrenheit = celcius * 1.8 + 32;
   return fahrenheit;
+}
+
+function gToL(gallons) {
+  const liters = gallons * 3.78541;
+  return liters;
+}
+
+function lToG(liters) {
+  const gallons = liters / 3.78541;
+  return gallons;
 }
