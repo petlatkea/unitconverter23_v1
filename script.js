@@ -42,3 +42,14 @@ function performConversion() {
 }
 
 /* ********************************* */
+let type;
+
+function setConversionType( conversion ) {
+    type = conversion;
+}
+
+function getConversionType() {
+    return type;
+}
+
+
