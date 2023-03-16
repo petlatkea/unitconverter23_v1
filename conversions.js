@@ -81,7 +81,7 @@ function feetToM(feet) {
   return feet * FEET_PER_M;
 }
 
-function mTofeet(meters) {
+function mToFeet(meters) {
   const M_PER_FOD = 3.2808;
   return meters * M_PER_FOD;
 }
@@ -105,4 +105,3 @@ function cToF(celcius) {
   let fahrenheit = celcius * 1.8 + 32;
   return fahrenheit;
 }
-console.log(fToC(-200));
