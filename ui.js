@@ -58,9 +58,9 @@ function getOutputUnit(conversion) {
   } else if (conversion === "kmToMiles") {
     return "miles";
   } else if (conversion === "fToC") {
-    return "fahrenheit";
-  } else if (conversion === "cToF") {
     return "celcius";
+  } else if (conversion === "cToF") {
+    return "fahrenheit";
   } else if (conversion === "feetToM") {
     return "m";
   } else if (conversion === "mToFeet") {
