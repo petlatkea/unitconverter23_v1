@@ -1,5 +1,15 @@
 "use strict";
 
+function milesToKm(miles) {
+  const km = miles * 0.621371192;
+  return km;
+}
+
+function kmToMiles(kilometers) {
+  const miles = kilometers * 1.609344;
+  return miles;
+}
+
 
 function lbsToKg(pounds) {
     const KILOGRAMS_PER_POUNDS = 0.45359237;
@@ -84,4 +94,5 @@ function cmToInch(centimeters) {
    let inches = centimeters * 0.393701;
    return inches;
 }
+
 
