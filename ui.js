@@ -1,6 +1,16 @@
+"use strict"
+
+function displayOutputValue( value ){
+    let outputValue;
+    outputValue = value.toFixed(2);
+    document.querySelector("#outputvalue").textContent = outputValue;
+
+}
+
 function displayOutputUnit(conversion) {
   document.querySelector("#outputunit").textContent = getOutputUnit(conversion);
 }
+
 function getOutputUnit(conversion) {
   if (conversion === "inchToCm") {
     return "cm";
