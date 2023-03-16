@@ -1,4 +1,3 @@
-
 "use strict";
 
 function milesToKm(miles) {
@@ -106,3 +105,14 @@ function cToF(celcius) {
   return fahrenheit;
 }
 console.log(fToC(-200));
+
+
+function gToL(gallons) {
+  const liters = gallons * 3.78541;
+  return liters;
+}
+
+function lToG(liters) {
+  const gallons = liters / 3.78541;
+  return gallons;
+}
