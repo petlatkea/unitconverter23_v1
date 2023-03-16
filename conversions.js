@@ -1,5 +1,3 @@
-"use strict";
-
 function milesToKm(miles) {
   const km = miles * 0.621371192;
   return km;
