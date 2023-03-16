@@ -1,7 +1,58 @@
 "use strict";
 
-// `feetToM( feet )` – modtager fod, regner om til meter
-// `mToFeet( meters )` – modtager meter, regner om til fod
+function convert(conversionType, value) {
+  switch (conversionType) {
+    case "inchToCm":
+      return inchToCm(value);
+      break;
+
+    case "cmToInch":
+      return cmToInch(value);
+      break;
+
+    case "milesToKm":
+      return milesToKm(value);
+      break;
+
+    case "kmToMiles":
+      return kmToMiles(value);
+      break;
+
+    case "fToC":
+      return fToC(value);
+      break;
+
+    case "cToF":
+      return cToF(value);
+      break;
+
+    case "feetToM":
+      return feetToM(value);
+      break;
+
+    case "mToFeet":
+      return mToFeet(value);
+      break;
+
+    case "lbsToKg":
+      return lbsToKg(value);
+      break;
+
+    case "kgToLbs":
+      return kgToLbs(value);
+      break;
+
+    case "gToL":
+      return gToL(value);
+      break;
+
+    case "lToG":
+      return lToG(value);
+      break;
+  }
+
+}
+
 
 function feetToM(feet) {
   const FEET_PER_M = 0.3048;

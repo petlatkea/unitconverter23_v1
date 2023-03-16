@@ -44,3 +44,27 @@ function performConversion() {
 }
 
 /* ********************************* */
+
+let type;
+
+function setConversionType( conversion ) {
+    type = conversion;
+}
+
+function getConversionType() {
+    return type;
+}
+
+
+
+
+let inputValue;
+
+function setInputValue(input) {
+  inputValue = input;
+}
+
+function getInputValue() {
+  return inputValue;
+}
+
