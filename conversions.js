@@ -1,3 +1,5 @@
+"use strict";
+
 function convert(conversionType, value) {
   switch (conversionType) {
     case "inchToCm":
@@ -48,4 +50,16 @@ function convert(conversionType, value) {
       return lToG(value);
       break;
   }
+
+}
+
+
+function feetToM(feet) {
+  const FEET_PER_M = 0.3048;
+  return feet * FEET_PER_M;
+}
+
+function mTofeet(meters) {
+  const M_PER_FOD = 3.2808;
+  return meters * M_PER_FOD;
 }
